@@ -10,12 +10,9 @@ var downTimer=null//bird下降的定时器
 var upTimer=null
 var pipeTimer=null
 var crashTimer=null
-
 var speed=0
 var maxSpeed=8
-
 var scoreNum=0
-
 function birdDown() {
 	flyBird.src='img/down_bird1.png'
 	speed=speed>=maxSpeed?maxSpeed:speed+.3
